@@ -2,10 +2,18 @@
   margin: auto;
   text-align: center;
 }
+
 #button {
-  text-align: center;
-  background-color: crimson;
-}  
-h1 {
+  margin: auto;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  background-color: pink;
+  display: flex;
+  font-weight: bolder;
+}
+
+body {
   font-style: italic;
+  background-color: silver;
 }

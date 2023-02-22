@@ -8,12 +8,12 @@
   align-items: center;
   width: 50px;
   height: 30px;
-  background-color: pink;
+  background-color: rgb(127, 176, 245);
   display: flex;
   font-weight: bolder;
 }
 
 body {
   font-style: italic;
-  background-color: silver;
+  background-color: rgb(255, 158, 158);
 }

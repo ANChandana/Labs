@@ -5,22 +5,39 @@ function Game(){
 
   // Assign the appropriate image
   let randomImageName1 = "rock.png" // Update this randomly
-  let ImageSource1 = "" + randomImageName1; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
+  let ImageSource1 = "img/" + randomImageName1; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
 
   let randomImageName2 = "hand.png" // Update this randomly
-  let ImageSource2 = "" + randomImageName2; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
+  let ImageSource2 = "img/" + randomImageName2; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
 
   let randomImageName3 = "hand.png" // Update this randomly
-  let ImageSource3 = "" + randomImageName3; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
+  let ImageSource3 = "img/" + randomImageName3; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
 
-  
+  let playerImage1 =  ()=> random1;// Update this randomly
+  if (playerImage1 == 1) {
+    document.querySelectorAll("img1")[1].setAttribute("src", ImageSource1);
+  }
+  else if (playerImage1 == 2){
+    document.querySelectorAll("img1")[2].setAttribute("src", ImageSource2); 
+  }
+  else if (playerImage1 == 3){
+    document.querySelectorAll("img1")[3].setAttribute("src", ImageSource3);
+  }
+
+  let playerImage2 = () => random2; // Update this randomly
+  if (playerImage2 == 1){
+    document.querySelectorAll("img2")[1].setAttribute("src", ImageSource1);
+  }
+  else if (playerImage2 == 2){
+    document.querySelectorAll("img2")[2].setAttribute("src", ImageSource2); 
+  }
+  else if (playerImage2 == 3){
+    document.querySelectorAll("img2")[3].setAttribute("src", ImageSource3);
+  }
+
 
   // Update images
-  //document.querySelectorAll("img")[0].setAttribute("src", "img/hand.png");
-  //document.querySelectorAll("img")[0].setAttribute("src", ImageSource1);
-  document.querySelectorAll("img")[1].setAttribute("src", ImageSource1);
-  document.querySelectorAll("img")[2].setAttribute("src", ImageSource2);
-  document.querySelectorAll("img")[3].setAttribute("src", ImageSource3);
+  
   
 // Print the winner. Use if statement or other appropriate logic.
   
@@ -71,6 +88,12 @@ function Game(){
   
 
   // Update images
+  //document.querySelectorAll("img")[0].setAttribute("src", "img/hand.png");
+  //document.querySelectorAll("img")[0].setAttribute("src", ImageSource1);
+  document.querySelectorAll("img")[1].setAttribute("src", ImageSource1);
+  document.querySelectorAll("img")[2].setAttribute("src", ImageSource2);
+  document.querySelectorAll("img")[3].setAttribute("src", ImageSource3);
+  
   
   /*document.querySelectorAll("img")[2].setAttribute("src", ImageSource2);
   document.querySelectorAll("img")[3].setAttribute("src", ImageSource3);

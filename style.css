@@ -17,3 +17,42 @@ body {
   font-style: italic;
   background-color: rgb(255, 158, 158);
 }
+
+/* Default styles */
+.img1 {
+  height: 150px;
+  width: auto;
+}
+
+/* Styles for screens that are 600px wide or less */
+@media (max-width: 600px) {
+  .img1 {
+    height: 100px;
+  }
+}
+
+/* Styles for screens that are 400px wide or less */
+@media (max-width: 400px) {
+  .img1 {
+    height: 80px;
+  }
+}
+/* Default styles */
+.img2 {
+  height: 150px;
+  width: auto;
+}
+
+/* Styles for screens that are 600px wide or less */
+@media (max-width: 600px) {
+  .img2 {
+    height: 100px;
+  }
+}
+
+/* Styles for screens that are 400px wide or less */
+@media (max-width: 400px) {
+  .img2 {
+    height: 80px;
+  }
+}

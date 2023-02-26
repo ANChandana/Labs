@@ -27,5 +27,11 @@ In this lab you will build a rock-paper-scissors game using JavaScript.
 11. Questions
     1. Update the readme file by answering the following questions and typing your answers in that file.
         1. Explain your design choices and how you used CSS to realize those changes.
-        2. Include screenshots if needed.
+        I have made CSS changes to make the website look feel good and fit. I have addedd background colors, changed the Text fonts and style to bold, italic, and different cursive font. I have also set newly added image width and height to fit with other images that are already present. I have also added responsive chnages via CSS.
+        3. Include screenshots if needed.
+![main view](https://user-images.githubusercontent.com/125329200/221434101-971872e5-ad17-4001-8c9e-fbdd4e4cea83.png)
+![play 1 wins](https://user-images.githubusercontent.com/125329200/221434133-ba8173f6-2bc5-4a9f-ac7d-031e2bb36de0.png)
+![play 2 wins](https://user-images.githubusercontent.com/125329200/221434145-fd65132a-c872-4bb6-83b2-e4f59b7f2d7d.png)
+![it's a tie](https://user-images.githubusercontent.com/125329200/221434163-c1b3ead7-ed03-438f-a5b6-3c58c20fffa3.png)
+
 12. Submit your repository via github.

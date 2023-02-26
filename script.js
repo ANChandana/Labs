@@ -13,26 +13,26 @@ function Game(){
   let randomImageName3 = "hand.png" // Update this randomly
   let ImageSource3 = "img/" + randomImageName3; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
 
-  let playerImage1 =  ()=> random1;// Update this randomly
+  var playerImage1 = () => random1;// Update this randomly
   if (playerImage1 == 1) {
-    document.querySelectorAll("img1")[1].setAttribute("src", ImageSource1);
+    document.querySelectorAll("#img1")[1].setAttribute("src", ImageSource1);
   }
   else if (playerImage1 == 2){
-    document.querySelectorAll("img1")[2].setAttribute("src", ImageSource2); 
+    document.querySelectorAll("#img1")[2].setAttribute("src", ImageSource2); 
   }
   else if (playerImage1 == 3){
-    document.querySelectorAll("img1")[3].setAttribute("src", ImageSource3);
+    document.querySelectorAll("#img1")[3].setAttribute("src", ImageSource3);
   }
 
-  let playerImage2 = () => random2; // Update this randomly
+  var playerImage2 = () =>random2; // Update this randomly
   if (playerImage2 == 1){
-    document.querySelectorAll("img2")[1].setAttribute("src", ImageSource1);
+    document.querySelectorAll("#img2")[1].setAttribute("src", ImageSource1);
   }
   else if (playerImage2 == 2){
-    document.querySelectorAll("img2")[2].setAttribute("src", ImageSource2); 
+    document.querySelectorAll("#img2")[2].setAttribute("src", ImageSource2); 
   }
   else if (playerImage2 == 3){
-    document.querySelectorAll("img2")[3].setAttribute("src", ImageSource3);
+    document.querySelectorAll("#img2")[3].setAttribute("src", ImageSource3);
   }
 
 
@@ -41,7 +41,7 @@ function Game(){
   
 // Print the winner. Use if statement or other appropriate logic.
   
-  if ((random1 == 1 && random2 == 1) || (random1 == 2 && random2 == 2) ||(random1 == 3 && random2 == 3)){
+  if (random1 === random2){
   document.querySelector("h1").innerHTML = "It's a Tie!";}
   else if (random1 == 1 && random2 == 2){
   document.querySelector("h1").innerHTML = "Play 2 Wins!";}

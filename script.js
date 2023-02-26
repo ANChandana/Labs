@@ -13,7 +13,7 @@ function Game(){
   let randomImageName3 = "hand.png" // Update this randomly
   let ImageSource3 = "img/" + randomImageName3; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
 
-  var playerImage1 = () => random1;// Update this randomly
+  /*var playerImage1 = () => random1;// Update this randomly
   if (playerImage1 == 1) {
     document.querySelectorAll("#img1")[1].setAttribute("src", ImageSource1);
   }
@@ -37,7 +37,12 @@ function Game(){
 
 
   // Update images
-  
+  */
+  const imgs = document.querySelectorAll('.img');
+  const options = ['rock', 'paper', 'scissors'];
+  imgs.forEach((img,index) => {
+  img.setAttribute('src', '${options[index === 0 ? random1 : random2]}.png');
+  });
   
 // Print the winner. Use if statement or other appropriate logic.
   

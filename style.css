@@ -2,7 +2,10 @@
   margin: auto;
   text-align: center;
 }
-
+.img {
+width: 160px;
+height: 160px;
+}
 #button {
   margin: auto;
   align-items: center;
@@ -19,40 +22,21 @@ body {
 }
 
 /* Default styles */
-.img1 {
+.img {
   height: 150px;
   width: auto;
 }
 
 /* Styles for screens that are 600px wide or less */
 @media (max-width: 600px) {
-  .img1 {
+  .img {
     height: 100px;
   }
 }
 
 /* Styles for screens that are 400px wide or less */
 @media (max-width: 400px) {
-  .img1 {
-    height: 80px;
-  }
-}
-/* Default styles */
-.img2 {
-  height: 150px;
-  width: auto;
-}
-
-/* Styles for screens that are 600px wide or less */
-@media (max-width: 600px) {
-  .img2 {
-    height: 100px;
-  }
-}
-
-/* Styles for screens that are 400px wide or less */
-@media (max-width: 400px) {
-  .img2 {
+  .img {
     height: 80px;
   }
 }

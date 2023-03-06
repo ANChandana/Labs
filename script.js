@@ -15,8 +15,8 @@ function Game() {
   let ImageSource3 = "img/" + randomImageName3; // imgs/rock.png or  imgs/scissors.png or  imgs/paper.png
   console.log(ImageSource3);
   var playerImage1 =random1;// Update this randomly
-  console.log(playerImage1);
-  console.log(random1);
+  //console.log(playerImage1);
+  //console.log(random1);
   if (playerImage1 == 1) {
     img[0].src = ImageSource1; // image 1
     console.log("hi");
